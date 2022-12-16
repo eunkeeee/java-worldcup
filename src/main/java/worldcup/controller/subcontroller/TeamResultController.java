@@ -1,4 +1,4 @@
-package worldcup.controller;
+package worldcup.controller.subcontroller;
 
 import worldcup.view.InputView;
 import worldcup.view.OutputView;
