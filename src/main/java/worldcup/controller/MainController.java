@@ -26,7 +26,7 @@ public class MainController {
     }
 
     public void play() {
-        new InitializingController().process();
+        new InitializingController(inputView,outputView).process();
         MainOption mainOption;
         do {
             mainOption = inputView.readMainOption();

@@ -3,13 +3,17 @@ package worldcup.controller;
 import worldcup.view.InputView;
 import worldcup.view.OutputView;
 
-public class AllMatchResultsController implements  Controllable{
-    public AllMatchResultsController(InputView inputView, OutputView outputView) {
+public class AllMatchResultsController implements Controllable {
 
+    private final InputView inputView;
+    private final OutputView outputView;
+
+    public AllMatchResultsController(InputView inputView, OutputView outputView) {
+        this.inputView = inputView;
+        this.outputView = outputView;
     }
 
     @Override
     public void process() {
-
     }
 }
