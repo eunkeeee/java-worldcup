@@ -8,7 +8,7 @@
 ## 경기 결과로 초기화
 
 - [x] Group 등록
-- [ ] Team 등록
+- [x] Team 등록
 - [ ] Group / Team(2개 Set) / 스코어
 - [ ] 각 Group에 Team을 할당 (생성자)
 - [ ] 각 Team에 Group, 승점(winningPoints), 득실차(goalDifference), 득점(goals) 입력
