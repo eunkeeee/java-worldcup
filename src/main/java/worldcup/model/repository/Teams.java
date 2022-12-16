@@ -21,7 +21,7 @@ public class Teams {
         teams.clear();
     }
 
-    public static Team findGroupByName(String name) {
+    public static Team findTeamByName(String name) {
         return teams.stream()
                 .filter(team -> team.getName().equals(name))
                 .findFirst()

@@ -27,4 +27,8 @@ public class Groups {
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException(ExceptionMessage.NO_GROUP.getMessage()));
     }
+
+    public static int size() {
+        return groups.size();
+    }
 }

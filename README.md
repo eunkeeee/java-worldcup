@@ -9,9 +9,9 @@
 
 - [x] Group 등록
 - [x] Team 등록
-- [ ] Group / Team(2개 Set) / 스코어
-- [ ] 각 Group에 Team을 할당 (생성자)
-- [ ] 각 Team에 Group, 승점(winningPoints), 득실차(goalDifference), 득점(goals) 입력
+- [x] Group / Team(2개 Set) / 스코어
+- [x] 각 Group에 Team을 할당 (생성자)
+- [x] 각 Team에 Group, 승점(winningPoints), 득실차(goalDifference), 득점(goals) 입력
 
 ## 1. 경기 결과 출력 `PRINT_ALL_MATCH_RESULTS`
 
