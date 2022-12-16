@@ -19,6 +19,10 @@ public class MainController {
     }
 
     private void initializeControllers() {
+        controllers.put(MainOption.PRINT_ALL_MATCH_RESULTS, new AllMatchResultsController(inputView, outputView));
+        controllers.put(MainOption.PRINT_GROUP_MATCH_RESULTS, new GroupMatchResultsController(inputView, outputView));
+        controllers.put(MainOption.PRINT_TEAM_RESULT, new TeamResultController(inputView, outputView));
+        controllers.put(MainOption.PRINT_TOURNAMENT_TEAMS, new TournamentTeamsController(inputView, outputView));
     }
 
     public void play() {
@@ -33,8 +37,7 @@ public class MainController {
     public void process(MainOption mainOption) {
         try {
             controllers.get(mainOption).process();
-        } catch (IllegalArgumentException exception) {
-            outputView.printExceptionMessage(exception);
+        } catch (NullPointerException ignored) {
         }
     }
 }

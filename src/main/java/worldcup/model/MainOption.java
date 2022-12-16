@@ -8,7 +8,7 @@ public enum MainOption {
     PRINT_ALL_MATCH_RESULTS("1"),
     PRINT_GROUP_MATCH_RESULTS("2"),
     PRINT_TEAM_RESULT("3"),
-    PRINT_TOURNAMENT_ADVANCED_TEAMS("4"),
+    PRINT_TOURNAMENT_TEAMS("4"),
     APPLICATION_EXIT("5");
 
     private final String command;
